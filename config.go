@@ -26,5 +26,4 @@ func ConfigInit(filename string) (Config, error) {
 		return conf, err
 	}
 	return conf, nil
-
 }

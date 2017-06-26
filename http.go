@@ -40,7 +40,7 @@ func HttpGet(urlStr string) ([]byte, error) {
 		req.Header.Set(k2, v2)
 	}
 	fmt.Println(req.Header)
-	
+
 	resp, err := client.Do(req)
 	if err != nil {
 		fmt.Println("Connect error:", urlStr, err)
