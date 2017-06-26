@@ -1,0 +1,12 @@
+#http://buy.cqcp.net/game/time.aspx?ab=0.811105703320761
+#http://buy.cqcp.net/Game/GetNum.aspx?iType=3&time=Fri%20Jun%2023%202017%2015:28:27%20GMT+0800
+#http://buy.cqcp.net/Game/GetNum.aspx?iType=11&name=0.02410333935306941
+#http://buy.cqcp.net/Game/GetNum.aspx?iType=11&name=0.9068378594695747
+
+BuyHost="http://buy.cqcp.net/Game/GetNum.aspx"
+TimeHost="http://buy.cqcp.net/game/time.aspx?ab=0.811105703320761"
+[Mysql]
+Host="127.0.0.1:3306"
+User="root"
+Pswd="123456"
+Name="test"
